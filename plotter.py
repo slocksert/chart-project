@@ -13,10 +13,8 @@ else:
     pass
 
 #here you can choose the period to show in the chart 
-end_year = int(input('End year:\n'))
-end_month = int(input('End month:\n'))
-end_day = int(input('End day:\n'))
-end = dt.datetime(end_year, end_month,end_day)
+
+end = dt.datetime.now()
 
 start_year = int(input('Start year:\n'))
 start_month = int(input('Start month:\n'))
